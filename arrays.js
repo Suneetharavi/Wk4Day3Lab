@@ -204,14 +204,20 @@ const KittyTalk = ["...human...why you taking pictures of me?...",
 
  //commited with message "Excited Kittens answered"
 
-//Find the Median..The median formula is {(n + 1) ÷ 2}
+//Find the Median..The median formula is {(n + 1) ÷ 2} if n is odd. if n is even- ((n/2)+((n/2)+1))/2
 
-const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
-nums.sort();
-let median= nums[Math.floor((nums.length+1)/2)]
-console.log(`The median of the given array is: ${median}`)
+ const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+    nums.sort();
+    console.log('\n The median of the given array')
+    if(nums.length%2 == 0)
+    console.log((nums[Math.floor(nums.length/2)]+nums[Math.floor((nums.length+1)/2)])/2);
+    else
+    console.log(nums[Math.floor((nums.length+1)/2)]);
 
 //commited with message "Find the Median answered"
+
+//Hungry for More?
+
 
     
 
