@@ -204,7 +204,14 @@ const KittyTalk = ["...human...why you taking pictures of me?...",
 
  //commited with message "Excited Kittens answered"
 
+//Find the Median..The median formula is {(n + 1) ÷ 2}
 
+const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+nums.sort();
+let median= nums[Math.floor((nums.length+1)/2)]
+console.log(`The median of the given array is: ${median}`)
+
+//commited with message "Find the Median answered"
 
     
 
