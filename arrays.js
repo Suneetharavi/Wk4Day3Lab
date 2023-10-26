@@ -1,14 +1,14 @@
 //Write a for loop that will log the numbers 1 through 20.
-// for (let l=0;l<=20;l++){
-//     console.log(l)
-// }
+    for (let l=0;l<=20;l++){
+        console.log(l)
+    }
 // committed with message "Easy Going answered"
 console.log('///////////////////////////////////////////////////')
 //Write a for loop that will log only the even numbers in 0 through 200.
-// console.log("The Even numbers from 0 to 200\n")
-// for(let i=0;i<=200;i+=2){ 
-//     console.log(i);
-// }
+    console.log("The Even numbers from 0 to 200\n")
+    for(let i=0;i<=200;i+=2){ 
+        console.log(i);
+    }
 console.log('///////////////////////////////////////////////////')
 //committed with message "Get Even answered" 
 //If you've solved it before, try to make it more elegant and short.
@@ -17,19 +17,19 @@ console.log('///////////////////////////////////////////////////')
 // If a number is divisible by 5 log "Buzz" instead of the number.
 // If a number is divisible by 3 and 5 log "FizzBuzz" instead of the number.
 
-// for (i=1;i<=100;i++){
-//     if(i%3==0 && i%5==0){
-//         console.log('FizzBuzz');
-//     }
-//     else if(i%3==0){
-//     console.log('Fizz')
-//     }
-//     else if(i%5==0){
-//     console.log('Buzz')
-//     }
-//     else
-//     console.log(i)
-// }
+for (i=1;i<=100;i++){
+    if(i%3==0 && i%5==0){
+        console.log('FizzBuzz');
+    }
+    else if(i%3==0){
+    console.log('Fizz')
+    }
+    else if(i%5==0){
+    console.log('Buzz')
+    }
+    else
+    console.log(i)
+}
 // //committed with message "Fizz Buzz answered"
 // console.log('///////////////////////////////////////////////////')
 //(name,species ,age, hometown):
@@ -62,14 +62,13 @@ wolfy[0]='Gameboy'
 console.log(wolfy)
 
 //committed with message "Wild Wild Life answered"
-// console.log('///////////////////////////////////////////////////')
+ console.log('///////////////////////////////////////////////////')
 
 //Create an array with the members
 // of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
 
 let turtles = ['Donatello','Leonardo','Raphael','Michaelangelo']
-//console.log(turtles)
-
+console.log(turtles)
 //Use a for of loop(not a typo - try it out! Try a for ofloop) 
 //to call toUpperCase()on each of them and print out the result.
 console.log("The turtles in Uppercase")
@@ -78,10 +77,9 @@ for (const element of turtles) {
   
   }
 //commited with message "Yell at the Ninja Turtles answered"
-// console.log('///////////////////////////////////////////////////')
+console.log('///////////////////////////////////////////////////')
 
 const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
-//Console log: the index of Titanic
 console.log(`\nThe index of Titanic movie is ${favMovies.indexOf('Titanic')}`)
 
 //use the .sort method Thought question: what did this do to the array? Did it permanently alter it?
@@ -165,9 +163,8 @@ console.log('\nThe indexOf() method of Array instances returns the first index a
 //My understanding is that const in this example means the variable can't be reassigned not that you can't manipulate it.So using Const is not wrong.
 
 //Commited with message "Methods Revisited answered"
-
+console.log('///////////////////////////////////')
 //Where is Waldo
-
 const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
 ["Lucinda", "Jacc", "Neff", "Snoop"],
 ["Petunia", ["Baked Goods", "Waldo"]]];
@@ -178,15 +175,12 @@ whereIsWaldo.splice(whereIsWaldo.indexOf('Eggbert'),1)
 console.log(`\nAfter Slice\n ${whereIsWaldo}`)
 
 //Change "Neff" to "No One"
-
 whereIsWaldo[1][2]='No One'
 console.log(whereIsWaldo)
 
 //committed with mesg "Where is Waldo answered"
+console.log('///////////////////////////////////')
 //Excited kitten
-
-
-
 const KittyTalk = ["...human...why you taking pictures of me?...", 
  "...the catnip made me do it...", 
  "...why does the red dot always get away..."
@@ -194,15 +188,15 @@ const KittyTalk = ["...human...why you taking pictures of me?...",
  for(let k=0;k<=20;k++){
        console.log("Love me, pet me! HSSSSSS!")
      let talkingPoint = Math.floor(Math.random() * (KittyTalk.length+1));  
-    if(k%2==0){
-        console.log(KittyTalk[talkingPoint])
-     }
-    else{
-         console.log(k)
-     }
+        if(k%2==0){
+            console.log(KittyTalk[talkingPoint])
+        }
+        else{
+            console.log(k)
+        }
  }
-
  //commited with message "Excited Kittens answered"
+ console.log('///////////////////////////////////')
 
 //Find the Median..The median formula is {(n + 1) ÷ 2} if n is odd. if n is even- ((n/2)+((n/2)+1))/2
 
@@ -216,7 +210,9 @@ const KittyTalk = ["...human...why you taking pictures of me?...",
 
 //commited with message "Find the Median answered"
 
-//Hungry for More?
+
+
+
 
 
     
