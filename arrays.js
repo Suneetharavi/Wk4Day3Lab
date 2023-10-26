@@ -56,7 +56,30 @@ dart.push('Hawkins')
 console.log("\nD'Art had a second city added")
 console.log(dart)
 
-// /Porgee decides that Wolfy can't be named "Wolfy" anymore.
+// Porgee decides that Wolfy can't be named "Wolfy" anymore.
 // Remove "Wolfy" from the wolfyarray and replace it with "Gameboy".
 wolfy[0]='Gameboy'
 console.log(wolfy)
+
+//committed with message "Wild Wild Life answered"
+// console.log('///////////////////////////////////////////////////')
+
+//Create an array with the members
+// of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
+
+let turtles = ['Donatello','Leonardo','Raphael','Michaelangelo']
+//console.log(turtles)
+
+//Use a for of loop(not a typo - try it out! Try a for ofloop) 
+//to call toUpperCase()on each of them and print out the result.
+
+for (const element of turtles) {
+    console.log(element.toUpperCase()); 
+  
+  }
+//commited with message "Yell at the Ninja Turtles answered"
+
+
+
+ 
+  
