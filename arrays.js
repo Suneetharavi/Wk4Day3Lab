@@ -1,6 +1,6 @@
 //Write a for loop that will log the numbers 1 through 20.
-// for (let i=0;i<=20;i++){
-//     console.log(i)
+// for (let l=0;l<=20;l++){
+//     console.log(l)
 // }
 // committed with message "Easy Going answered"
 console.log('///////////////////////////////////////////////////')
@@ -183,22 +183,32 @@ whereIsWaldo[1][2]='No One'
 console.log(whereIsWaldo)
 
 //committed with mesg "Where is Waldo answered"
-// //Excited kitten
+//Excited kitten
 
-// for(let k=0;k<=20;k++){
-//     console.log("Love me, pet me! HSSSSSS!")
-// }
 
-// const KittyTalk = ["...human...why you taking pictures of me?...", 
-// "...the catnip made me do it...", 
-// "...why does the red dot always get away..."
-// ]
-// let talkingPoint=0;
-// for(let j=0; j<=20; j++){
+
+const KittyTalk = ["...human...why you taking pictures of me?...", 
+ "...the catnip made me do it...", 
+ "...why does the red dot always get away..."
+]
+ for(let k=0;k<=20;k++){
+       console.log("Love me, pet me! HSSSSSS!")
+     let talkingPoint = Math.floor(Math.random() * (KittyTalk.length+1));  
+    if(k%2==0){
+        console.log(KittyTalk[talkingPoint])
+     }
+    else{
+         console.log(k)
+     }
+ }
+
+ //commited with message "Excited Kittens answered"
+
+
 
     
 
-// }
+
 
 
 
