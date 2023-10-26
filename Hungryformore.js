@@ -43,4 +43,5 @@ const kristynsCloset = [
   //Modify your code to put together 3 separate outfits for Kristyn and Thom. 
   //Put the output in a sentence to tell us what we'll be wearing. Mix and match!
 
-  console.log(`Kristyns attire be like: `)
+  console.log(`Kristyns will be wearing: ${kristynsCloset[2]},${kristynsCloset[3]},${kristynsCloset[0]},${kristynsCloset[4]},${thomsCloset[2][0]}`)
+  console.log(`Thom will be wearing: ${thomsCloset[0][2]},${kristynsCloset[3]},${thomsCloset[2][2]},${kristynsCloset[5]}`)
