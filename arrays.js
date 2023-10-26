@@ -166,5 +166,52 @@ console.log('\nThe indexOf() method of Array instances returns the first index a
 
 //Commited with message "Methods Revisited answered"
 
+//Where is Waldo
+
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+["Lucinda", "Jacc", "Neff", "Snoop"],
+["Petunia", ["Baked Goods", "Waldo"]]];
+console.log("\nWhere is Waldo Array")
+//Remove Eggbert (hint look at the slice/splice method(s))
+console.log(`\nBefore slice \n ${whereIsWaldo}`)
+whereIsWaldo.splice(whereIsWaldo.indexOf('Eggbert'),1)
+console.log(`\nAfter Slice\n ${whereIsWaldo}`)
+
+//Change "Neff" to "No One"
+
+whereIsWaldo[1][2]='No One'
+console.log(whereIsWaldo)
+
+//committed with mesg "Where is Waldo answered"
+// //Excited kitten
+
+// for(let k=0;k<=20;k++){
+//     console.log("Love me, pet me! HSSSSSS!")
+// }
+
+// const KittyTalk = ["...human...why you taking pictures of me?...", 
+// "...the catnip made me do it...", 
+// "...why does the red dot always get away..."
+// ]
+// let talkingPoint=0;
+// for(let j=0; j<=20; j++){
+
+    
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
