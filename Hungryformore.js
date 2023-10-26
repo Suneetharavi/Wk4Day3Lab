@@ -45,3 +45,22 @@ const kristynsCloset = [
 
   console.log(`Kristyns will be wearing: ${kristynsCloset[2]},${kristynsCloset[3]},${kristynsCloset[0]},${kristynsCloset[4]},${thomsCloset[2][0]}`)
   console.log(`Thom will be wearing: ${thomsCloset[0][2]},${kristynsCloset[3]},${thomsCloset[2][2]},${kristynsCloset[5]}`)
+
+  console.log('///// Dirty Laundry ////')
+
+kristynsCloset.forEach(item => {
+    console.log("WHIRR: Now washing", item)
+})
+
+console.log('///// Inventory //////')
+
+  //Thom wants to do inventory on his closet.
+  // Using bracket notation, log the arrays containing all of Thom's shirts, pants, and accessories.
+
+  for(let p=0;p < thomsCloset.length;p++){
+    //console.log(thomsCloset[0].length);
+    for(let q=0;q<thomsCloset[p].length;q++){
+        console.log(thomsCloset[p][q])
+    }
+
+  }
